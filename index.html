@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandlesmarket</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/svg/favicon.svg" type="image/x-icon">
+
+    <!-- output css -->
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/main.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="./src/swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header>
+        <!-- header top -->
+        <nav class="header_top bg-[#f5f5f5] py-[10px]">
+            <nav class="container2 text-1 flex justify-between items-center  text-[14px]">
+                <nav class="flex justify-center items-center gap-[5px]">
+                    <p class="flex justify-center items-center gap-[3px]"><span class="max-[310px]:hidden">Ваш</span>
+                        город:</p>
+                    <select class="outline-none border-none cursor-pointer bg-[#f5f5f5]">
+                        <option value="Москва">Москва</option>
+                        <option value="Арзамас">Арзамас</option>
+                        <option value="Казань">Казань</option>
+                    </select>
+                </nav>
+
+                <nav class="flex flex-col justify-center items-center max-[1030px]:hidden">
+                    <p>Москва, г. Химки, ул. Рабочая, дом 2</p>
+                    <small class="opacity-70">с 09:00 до 20:00 без выходных</small>
+                </nav>
+
+                <nav class="flex justify-center items-center gap-[10px] max-[900px]:hidden">
+                    <a href="tel:+7 (495) 970-45-62 " class="hover:text-[#ff9b04]">+7 (495) 970-45-62</a>
+                    <p class="opacity-70">/</p>
+                    <a href="tel:+7 (915) 202-72-57 " class="hover:text-[#ff9b04]">+7 (915) 202-72-57</a>
+                </nav>
+
+                <nav class="social flex justify-center items-center gap-[10px]">
+                    <nav
+                        class="flex justify-center items-center rounded-[50%] border border-1 h-[30px] w-[30px] max-[310px]:w-[25px] max-[310px]:h-[25px] active:scale-[.90] bg-[#f5f5f5] hover:bg-[#ff9b0454] cursor-pointer">
+                        <img src="./assets/svg/telegram.svg" alt="">
+                    </nav>
+
+                    <nav
+                        class="flex justify-center items-center rounded-[50%] border border-1 h-[30px] w-[30px] max-[310px]:w-[25px] max-[310px]:h-[25px] active:scale-[.90] bg-[#f5f5f5] hover:bg-[#ff9b0454] cursor-pointer">
+                        <img src="./assets/svg/whatsap.svg" alt="">
+                    </nav>
+
+                    <nav
+                        class="flex justify-center items-center rounded-[50%] border border-1 h-[30px] w-[30px] max-[310px]:w-[25px] max-[310px]:h-[25px] active:scale-[.90] bg-[#f5f5f5] hover:bg-[#ff9b0454] cursor-pointer">
+                        <img src="./assets/svg/viber.svg" alt="">
+                    </nav>
+                </nav>
+            </nav>
+        </nav>
+
+        <!-- header bottom -->
+        <nav class="header_bottom bg-[white] py-[13px]">
+            <nav class="container2 flex justify-between items-center max-[900px]:flex-col max-[900px]:gap-[20px]">
+                <a href="mailto:grandlesmarket@mail.ru" class="max-[1165px]:hidden">grandlesmarket@mail.ru</a>
+
+                <nav class="flex justify-center items-center gap-[40px] max-[900px]:hidden">
+                    <a href="#!"
+                        class="flex justify-center items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04]">
+                        <p class="flex justify-center items-center">Каталог</p>
+                        <img src="./assets/svg/down.svg" alt="">
+                    </a>
+
+                    <a href="#!"
+                        class="flex justify-center items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04]">
+                        <p class="flex justify-center items-center">Покупателю</p>
+                        <img src="./assets/svg/down.svg" alt="">
+                    </a>
+                </nav>
+
+                <!-- logo -->
+                <nav
+                    class="navbar_logo max-[900px]:w-full max-[900px]:flex max-[900px]:justify-between max-[900px]:items-center">
+                    <a href="#!" class="hidden max-[900px]:block">
+                        <img src="./assets/svg/calculator.svg" alt="">
+                    </a>
+
+                    <a href="./index.html" class="flex justify-center items-center">
+                        <img src="./assets/img/logo.png" alt="" class="w-[90%] max-[900px]:w-[70%]">
+                    </a>
+
+                    <a href="#!" class="hidden max-[900px]:block">
+                        <img src="./assets/svg/cart.svg" alt="">
+                    </a>
+                </nav>
+                <!-- logo -->
+
+
+                <nav
+                    class="justify-center items-center gap-[10px] hidden max-[900px]:flex max-[400px]:text-[13px] max-[400px]:gap-[6px]">
+                    <a href="tel:+7 (495) 970-45-62 " class="hover:text-[#ff9b04]">+7 (495) 970-45-62</a>
+                    <p class="opacity-70">/</p>
+                    <a href="tel:+7 (915) 202-72-57 " class="hover:text-[#ff9b04]">+7 (915) 202-72-57</a>
+                </nav>
+
+                <nav class="hidden max-[900px]:flex justify-between items-center w-full">
+                    <label for="nav" class="w-20% text-[#ff9b04] text-[20px] flex justify-center items-center">
+                        <div class="menu-icon flex flex-col justify-between h-[20px] w-[28px] max-[370px]:h-[18px] max-[370px]:w-[26px] cursor-pointer relative"
+                            id="menu-icon">
+                            <span class="block h-[3px] w-full bg-[#ff9b04] rounded-[2px]"></span>
+                            <span class="block h-[3px] w-full bg-[#ff9b04] rounded-[2px]"></span>
+                            <span class="block h-[3px] w-full bg-[#ff9b04] rounded-[2px]"></span>
+                        </div>
+                    </label>
+
+                    <form action=""
+                        class="bg-[#f5f5f5] flex justify-between items-center h-[35px] overflow-hidden rounded-xl max-[900px]:w-[40%] max-[820px]:w-[60%] max-[540px]:w-[85%]">
+                        <input type="search" placeholder="Введите фразу или слово"
+                            class="bg-[#f5f5f5] p-[10px] flex-[6] h-[100%] outline-none border-none max-[400px]:text-[12px] pr-0">
+                        <button
+                            class="flex-[1] h-[100%] flex justify-center items-center outline-none border-none p-[10px]">
+                            <img src="./assets/svg/search.svg" alt="">
+                        </button>
+                    </form>
+                </nav>
+
+                <nav class="flex justify-center items-center gap-[40px] max-[900px]:hidden">
+                    <a href="#!"
+                        class="flex justify-center items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04]">
+                        <p class="flex justify-center items-center">О компании</p>
+                        <img src="./assets/svg/down.svg" alt="">
+                    </a>
+
+                    <a href="#!"
+                        class="flex justify-center items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04]">
+                        <p class="flex justify-center items-center">Контакты</p>
+                    </a>
+                </nav>
+
+                <nav class="flex justify-center items-center gap-[15px] max-[900px]:hidden">
+                    <a href="#!">
+                        <img src="./assets/svg/calculator.svg" alt="">
+                    </a>
+
+                    <a href="#!">
+                        <img src="./assets/svg/search.svg" alt="">
+                    </a>
+
+                    <a href="#!">
+                        <img src="./assets/svg/cart.svg" alt="">
+                    </a>
+                </nav>
+            </nav>
+        </nav>
+    </header>
+
+    <!-- navbar_mobile -->
+    <input type="checkbox" id="nav" class="hidden">
+    <nav
+        class="justify-center items-center hidden max-[900px]:flex max-[900px]:flex-col overflow-hidden h-0 z-10 absolute w-full bg-[#fff] p-[20px]">
+        <a href="#!"
+            class="flex justify-between items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04] w-full p-[10px] border-t border-t-[#e0e0e0] border-b border-b-[#e0e0e0]">
+            <p class="flex justify-center items-center">Каталог</p>
+            <img src="./assets/svg/down.svg" alt="">
+        </a>
+
+        <a href="#!"
+            class="flex justify-between items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04] w-full p-[10px] border-b border-b-[#e0e0e0]">
+            <p class="flex justify-center items-center">Покупателю</p>
+            <img src="./assets/svg/down.svg" alt="">
+        </a>
+
+
+        <a href="#!"
+            class="flex justify-between items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04] w-full p-[10px] border-b border-b-[#e0e0e0]">
+            <p class="flex justify-center items-center">О компании</p>
+            <img src="./assets/svg/down.svg" alt="">
+        </a>
+
+
+        <a href="#!"
+            class="flex justify-between items-center gap-[10px] uppercase font-medium text-[14px] hover:text-[#ff9b04] w-full p-[10px]  border-b border-b-[#e0e0e0]">
+            <p class="flex justify-center items-center">Контакты</p>
+        </a>
+
+
+    </nav>
+    <!-- header end -->
+
+
+    <!-- showcase start -->
+    <section class="showcase bg-[#f5f5f5] max-[750px]:pt-[40px]">
+        <div class="container2 flex justify-between items-center max-[750px]:flex-col max-[750px]:gap-[30px]">
+            <div
+                class="showcase_txt flex flex-col justify-center items-start gap-[20px] max-[750px]:items-center max-[750px]:text-center">
+                <h1
+                    class="font-[700] text-[50px] text-[#2a1a01] leading-[110%] max-[1080px]:text-[40px] max-[845px]:text-[30px] max-[750px]:text-[40px] max-[410px]:text-[30px] max-[300px]:text-[25px]">
+                    Интернет-магазин <br> пиломатериалов
+                </h1>
+
+                <p
+                    class="font-[600] text-[20px] leading-[150%] text-[#2a1a01] max-[1080px]:text-[16px] max-[845px]:text-[14px] max-[300px]:text-[12px]">
+                    С оперативной доставкой по Москве <br> и
+                    Московской области</p>
+
+                <a href="#!" class="btn btn_orange mt-[20px] max-[750px]:mt-0">Перейти в каталог</a>
+            </div>
+
+            <div
+                class="flex justify-center items-center relative max-[1310px]:h-[500px] max-[1275px]:h-[400px] max-[965px]:h-[320px] max-[750px]:w-full max-[750px]:h-[340px] max-[520px]:h-[250px] max-[360px]:h-[200px] max-[300px]:h-[180px]">
+                <img src="./assets/img/home2.png" alt="" class="h-full">
+
+                <div
+                    class="max-[1275px]:hidden absolute w-[200px] p-[10px] rounded-[10px] bg-[#fff] flex justify-start items-center font-[600] text-1 top-[70px] left-[45px]">
+                    <p class="text-[13px]">Пиломатериалы от производителя</p>
+                    <span class="h-[14px] w-[14px] rounded-[50%] bg-[#ff9b04] absolute right-[-7px]"></span>
+                </div>
+
+                <div
+                    class="max-[1275px]:hidden absolute w-[200px] p-[10px] rounded-[10px] bg-[#fff] flex justify-start items-center font-[600] text-1 left-[-80px]">
+                    <p class="text-[13px]">Древесина разной <br> сортности и качества</p>
+                    <span class="h-[14px] w-[14px] rounded-[50%] bg-[#ff9b04] absolute right-[-7px]"></span>
+                </div>
+
+                <div
+                    class="max-[1275px]:hidden absolute w-[200px] p-[10px] rounded-[10px] bg-[#fff] flex justify-start items-center font-[600] text-1 bottom-[90px] left-[45px]">
+                    <p class="text-[13px]">Широкая линейка <br> продукции</p>
+                    <span class="h-[14px] w-[14px] rounded-[50%] bg-[#ff9b04] absolute right-[-7px]"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- showcase end -->
+
+
+    <!-- catalog start -->
+    <section class="catalog py-[70px]">
+        <div class="container2">
+            <div class="flex justify-between items-center mb-[30px] max-[605px]:">
+                <h1
+                    class="font-[700] text-[30px] text-[#2a1a01] max-[470px]:text-[25px] max-[365px]:text-center max-[365px]:w-full max-[365px]:text-[20px]">
+                    Каталог продукции</h1>
+
+                <a href="#!" class="btn max-[605px]:hidden">Перейти в каталог</a>
+            </div>
+
+            <div
+                class="grid grid-cols-4 gap-[20px] max-[1040px]:grid-cols-3 max-[790px]:grid-cols-2 max-[605px]:grid-cols-1">
+
+                <!-- 1 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/1.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Доска</h5>
+                        <p>от 13 500 ₽</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/2.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Брус</h5>
+                        <p>от 18 500 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/3.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Брусок</h5>
+                        <p>от 75 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 4 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/4.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Блокхаус</h5>
+                        <p>от 700 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 5 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/5.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Вагонка</h5>
+                        <p>от 450 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 6 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/6.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Имитация бруса</h5>
+                        <p>от 550 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 7 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/7.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Половая доска</h5>
+                        <p>от 7500 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 8 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/8.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Клееный пиломатериал</h5>
+                        <p>от 55 000 ₽</p>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/9.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Фанера</h5>
+                        <p>от 500 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 10 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/10.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Погонаж</h5>
+                        <p>от 8 ₽</p>
+                    </div>
+                </div>
+
+
+                <!-- 11 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/1.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Лиственница</h5>
+                        <p>от 680 ₽</p>
+                    </div>
+                </div>
+
+                <!-- 12 -->
+                <div
+                    class="grid_item rounded-[10px] relative flex justify-start items-end h-[220px] max-[1165px]:h-[190px] cursor-pointer overflow-hidden">
+                    <div class="grid_item_img absolute left-0 top-0 w-full h-full z-[-1]">
+                        <img src="./assets/img/catalog/12.png" alt="" class="object-cover w-full h-full">
+                    </div>
+
+                    <div
+                        class="grid_item_info z-1 py-[10px] px-[20px] text-[#fff] flex flex-col justify-center items-start w-full bg-[#ffffff21] backdrop-blur-[6px]">
+                        <h5 class="text-[18px] font-[600]">Стройматериалы</h5>
+                        <p>от 65 ₽</p>
+                    </div>
+                </div>
+
+                <a href="#!" class="btn hidden max-[605px]:block">Перейти в каталог</a>
+
+            </div>
+        </div>
+    </section>
+    <!-- catalog end -->
+
+
+    <!-- info start -->
+    <section class="info py-[60px]">
+        <div
+            class="container2 bg-[#f5f5f5] p-[40px] rounded-xl flex flex-col justify-center items-start gap-[10px] max-[385px]:p-[15px] max-[385px]:text-justify max-[385px]:items-center">
+            <h1
+                class="font-[900] text-[80px] uppercase text-[#ff9b04] max-[1120px]:text-[60px] max-[880px]:text-[45px] max-[620px]:text-[30px] max-[435px]:text-[20px]">
+                GrandLesMarket</h1>
+
+            <h2
+                class="font-[600] text-[50px] text-[#2a1a01] max-[1120px]:text-[35px] max-[880px]:text-[25px] max-[620px]:text-[17px]">
+                магазин пиломатериалов</h2>
+
+            <p class="font-[400] text-[16px] text-1">Мы стремимся обеспечивать потребности самых разных заказчиков в
+                качественной древесине для разных нужд
+                строительства. Мы
+                постоянно расширяем линейку пиломатериалов для продажи, в нашем каталоге представлены изделия с разными
+                характеристиками
+                и уровня качества, чтобы удовлетворить любые запросы. Ведь древесина может быть очень разной и
+                использоваться
+                по-разному.</p>
+        </div>
+    </section>
+    <!-- info end -->
+
+
+    <!-- Popular products -->
+    <section class="popular_products py-[40px]">
+        <div class="container2">
+            <div class="flex justify-between items-center mb-[30px] max-[605px]:">
+                <h1
+                    class="font-[700] text-[30px] text-[#2a1a01] max-[470px]:text-[25px] max-[365px]:text-center max-[365px]:w-full max-[365px]:text-[20px]">
+                    Популярные товары</h1>
+
+                <a href="#!" class="btn max-[605px]:hidden">Перейти в каталог</a>
+            </div>
+
+            <!-- Swiper -->
+            <div class="relative">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper pb-[30px]">
+                        <!-- 1 -->
+                        <div class="swiper-slide">
+                            <div
+                                class="grid grid-cols-[1fr_1.2fr] rounded-xl border border-[#e0e0e0] max-[490px]:grid-cols-1 overflow-hidden">
+                                <div
+                                    class="img_box flex justify-center items-center bg-[#f5f5f5] max-[490px]:h-[200px] max-[380px]:h-[170px]">
+                                    <img src="./assets/img/popular/popular1.png" alt=""
+                                        class="w-[80%] max-[490px]:h-[80%] max-[490px]:w-[50%] max-[380px]:w-[70%]">
+                                </div>
+
+                                <div
+                                    class="p-[20px] flex flex-col justify-center items-start gap-[15px] max-[355px]:gap-[10px]">
+                                    <div class="flex justify-start items-center gap-[10px]">
+                                        <small class="border boreder-1 px-[5px] py-[1px] rounded">Акция</small>
+                                        <small class="border boreder-1 px-[5px] py-[1px] rounded">-30%</small>
+                                    </div>
+
+                                    <h1 class="font-[700] text-[18px] text-1 max-[355px]:text-[16px]">Строганая сухая
+                                        доска</h1>
+
+                                    <p class="text-[14px] opacity-70">50х150х6000 (45х140х6000)</p>
+
+                                    <div class="flex justify-start items-center gap-[10px] text-[14px]">
+                                        <p>Количество:</p>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-minus"></i></button>
+                                        <h3>1</h3>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+
+                                    <div class="flex justify-start items-center gap-[10px] text-[14px]">
+                                        <p>Цена за:</p>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]">м3</button>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]">шт</button>
+                                        <h3>17 500 ₽</h3>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full">
+                                        <a href="#!" class="btn btn_orange text-[14px] px-[10px] max-[355px]:w-full">В
+                                            корзину</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="swiper-slide">
+                            <div
+                                class="grid grid-cols-[1fr_1.2fr] rounded-xl border border-[#e0e0e0] max-[490px]:grid-cols-1 overflow-hidden">
+                                <div
+                                    class="img_box flex justify-center items-center bg-[#f5f5f5] max-[490px]:h-[200px] max-[380px]:h-[170px]">
+                                    <img src="./assets/img/popular/popular2.png" alt=""
+                                        class="w-[80%] max-[490px]:h-[80%] max-[490px]:w-[50%] max-[380px]:w-[70%]">
+                                </div>
+
+                                <div
+                                    class="p-[20px] flex flex-col justify-center items-start gap-[15px] max-[355px]:gap-[10px]">
+                                    <div class="flex justify-start items-center gap-[10px]">
+                                        <small class="border boreder-1 px-[5px] py-[1px] rounded">Акция</small>
+                                        <small class="border boreder-1 px-[5px] py-[1px] rounded">-30%</small>
+                                    </div>
+
+                                    <h1 class="font-[700] text-[18px] text-1 max-[355px]:text-[16px]">Строганая сухая
+                                        доска</h1>
+
+                                    <p class="text-[14px] opacity-70">50х150х6000 (45х140х6000)</p>
+
+                                    <div class="flex justify-start items-center gap-[10px] text-[14px]">
+                                        <p>Количество:</p>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-minus"></i></button>
+                                        <h3>1</h3>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+
+                                    <div class="flex justify-start items-center gap-[10px] text-[14px]">
+                                        <p>Цена за:</p>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]">м3</button>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]">шт</button>
+                                        <h3>17 500 ₽</h3>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full">
+                                        <a href="#!" class="btn btn_orange text-[14px] px-[10px] max-[355px]:w-full">В
+                                            корзину</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="swiper-slide">
+                            <div
+                                class="grid grid-cols-[1fr_1.2fr] rounded-xl border border-[#e0e0e0] max-[490px]:grid-cols-1 overflow-hidden">
+                                <div
+                                    class="img_box flex justify-center items-center bg-[#f5f5f5] max-[490px]:h-[200px] max-[380px]:h-[170px]">
+                                    <img src="./assets/img/home2.png" alt=""
+                                        class="w-[80%] max-[490px]:h-[80%] max-[490px]:w-[50%] max-[380px]:w-[70%]">
+                                </div>
+
+                                <div
+                                    class="p-[20px] flex flex-col justify-center items-start gap-[15px] max-[355px]:gap-[10px]">
+                                    <div class="flex justify-start items-center gap-[10px]">
+                                        <small class="border boreder-1 px-[5px] py-[1px] rounded">Акция</small>
+                                        <small class="border boreder-1 px-[5px] py-[1px] rounded">-30%</small>
+                                    </div>
+
+                                    <h1 class="font-[700] text-[18px] text-1 max-[355px]:text-[16px]">Строганая сухая
+                                        доска</h1>
+
+                                    <p class="text-[14px] opacity-70">50х150х6000 (45х140х6000)</p>
+
+                                    <div class="flex justify-start items-center gap-[10px] text-[14px]">
+                                        <p>Количество:</p>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-minus"></i></button>
+                                        <h3>1</h3>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+
+                                    <div class="flex justify-start items-center gap-[10px] text-[14px]">
+                                        <p>Цена за:</p>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]">м3</button>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]">шт</button>
+                                        <h3>17 500 ₽</h3>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full">
+                                        <a href="#!" class="btn btn_orange text-[14px] px-[10px] max-[355px]:w-full">В
+                                            корзину</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div
+                    class="flex justify-center items-center gap-[10px]  w-[10%] absolute right-0 bottom-[-3px] z-10 max-[1024px]:hidden">
+                    <div class="swiper-next order-2">
+                        <svg width="31" height="12" viewBox="0 0 31 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.495 6.49497C30.7683 6.22161 30.7683 5.77839 30.495 5.50503L26.0402 1.05025C25.7668 0.776886 25.3236 0.776886 25.0503 1.05025C24.7769 1.32362 24.7769 1.76684 25.0503 2.0402L29.0101 6L25.0503 9.9598C24.7769 10.2332 24.7769 10.6764 25.0503 10.9497C25.3236 11.2231 25.7668 11.2231 26.0402 10.9497L30.495 6.49497ZM0 6.7H30V5.3H0V6.7Z"
+                                fill="#222222" />
+                        </svg>
+                    </div>
+
+                    <div class="swiper-prev">
+                        <svg width="31" height="12" viewBox="0 0 31 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.505024 5.50503C0.231657 5.77839 0.231657 6.22161 0.505024 6.49498L4.9598 10.9497C5.23316 11.2231 5.67638 11.2231 5.94975 10.9497C6.22311 10.6764 6.22311 10.2332 5.94975 9.9598L1.98995 6L5.94975 2.0402C6.22311 1.76684 6.22311 1.32362 5.94975 1.05025C5.67638 0.776888 5.23316 0.776888 4.9598 1.05025L0.505024 5.50503ZM31 5.3L0.999998 5.3L0.999998 6.7L31 6.7L31 5.3Z"
+                                fill="#222222" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular products end -->
+
+
+    <!-- about company -->
+    <section class="company_info py-[40px]">
+        <div
+            class="container2 flex justify-between items-center max-[950px]:flex-col max-[950px]:gap-[70px] max-[350px]:gap-[50px]">
+            <div
+                class="company_info_content flex flex-col justify-center items-start gap-[25px] w-[45%] max-[1170px]:gap-[15px] max-[950px]:gap-[20px]  max-[950px]:w-[70%] max-[950px]:items-center max-[950px]:text-center max-[605px]:w-[90%]">
+                <h1 class="font-[700] text-[30px] text-1 max-[1095px]:text-[20px] select-none">О компании</h1>
+
+                <p class="font-[500] text-1 text-[18px] max-[1095px]:text-[16px] max-[300px]:hidden">Компания
+                    «ГрандЛесМаркет» специализируется на продажах высококачественных пиломатериалов.</p>
+
+                <p class="text-1 max-[1095px]:text-[14px] max-[950px]:text-justify">
+                    Реализация осуществляется любым удобным способом: в розницу или оптовыми поставками. Деятельность
+                    компании ориентирована
+                    на широкий круг потребителей: крупные и небольшие строительные
+                </p>
+
+                <p class="text-1 max-[1095px]:text-[14px] max-[950px]:text-justify">
+                    Мы позиционируем себя как надежного поставщика широкого спектра товаров. Представленный ассортимент
+                    соответствует
+                    действующим стандартам, обеспечен технологически правильными условиями хранения и транспортирования.
+                    Именно поэтому весь
+                </p>
+
+                <a href="#!" class="btn btn_orange max-[445px]:w-full">Подробнее о нас</a>
+            </div>
+
+            <div class="company_info_img w-[50%] rounded-xl overflow-hidden max-[950px]:w-[70%] max-[605px]:w-[90%]">
+                <img src="./assets/img/company_info.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- about company end -->
+
+
+    <!-- how it work -->
+    <section class="advantages py-[40px]">
+        <div class="container2">
+
+            <h1
+                class="font-medium text-[25px] leading-[150%] uppercase text-center text-[#222] max-[980px]:text-[20px] max-[770px]:text-[15px]">
+                Значимое преимущество компании – выгодное сочетание <br class="max-[590px]:hidden"> безупречного
+                качества
+                реализуемого продукта и его <br class="max-[590px]:hidden">
+                удивительно
+                низкой
+                цены.
+            </h1>
+
+            <div class="w-[90%] my-[0] mx-auto min-[1400px]:w-[1350px]">
+                <div
+                    class="grid grid-cols-2 gap-[20px] py-[60px] max-[960px]:justify-center max-[960px]:items-center max-[550px]:grid max-[550px]:grid-cols-1">
+
+                    <!-- 1 -->
+                    <div
+                        class=" bg-[#f5f5f5] p-[20px] flex justify-start items-center gap-[20px] rounded-xl max-[960px]:flex-col">
+                        <div class=" h-[50px] w-[50px] rounded-xl bg-[#fff] flex justify-center items-center p-[5px]">
+                            <img src="./assets/svg/1.svg" alt="" class="w-[90%] h-[90%]">
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70 max-[960px]:items-center max-[960px]:text-center">
+                            <p class="font-medium leading-[100%] text-[#222]">На рынке с 2010 года</p>
+                            <p class="font-normal text-[14px] text-[#777]">Более 13 лет успешной работы и сотни
+                                довольных
+                                заказчиков</p>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div
+                        class=" bg-[#f5f5f5] p-[20px] flex justify-start items-center gap-[20px] rounded-xl max-[960px]:flex-col">
+                        <div class=" h-[50px] w-[50px] rounded-xl bg-[#fff] flex justify-center items-center p-[5px]">
+                            <img src="./assets/svg/2.svg" alt="" class="w-[90%] h-[90%]">
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70 max-[960px]:items-center max-[960px]:text-center">
+                            <p class="font-medium leading-[100%] text-[#222]">На рынке с 2010 года</p>
+                            <p class="font-normal text-[14px] text-[#777]">Более 13 лет успешной работы и сотни
+                                довольных
+                                заказчиков</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div
+                        class=" bg-[#f5f5f5] p-[20px] flex justify-start items-center gap-[20px] rounded-xl max-[960px]:flex-col">
+                        <div class=" h-[50px] w-[50px] rounded-xl bg-[#fff] flex justify-center items-center p-[5px]">
+                            <img src="./assets/svg/3.svg" alt="" class="w-[90%] h-[90%]">
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70 max-[960px]:items-center max-[960px]:text-center">
+                            <p class="font-medium leading-[100%] text-[#222]">На рынке с 2010 года</p>
+                            <p class="font-normal text-[14px] text-[#777]">Более 13 лет успешной работы и сотни
+                                довольных
+                                заказчиков</p>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div
+                        class=" bg-[#f5f5f5] p-[20px] flex justify-start items-center gap-[20px] rounded-xl max-[960px]:flex-col">
+                        <div class=" h-[50px] w-[50px] rounded-xl bg-[#fff] flex justify-center items-center p-[5px]">
+                            <img src="./assets/svg/4.svg" alt="" class="w-[90%] h-[90%]">
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70 max-[960px]:items-center max-[960px]:text-center">
+                            <p class="font-medium leading-[100%] text-[#222]">На рынке с 2010 года</p>
+                            <p class="font-normal text-[14px] text-[#777]">Более 13 лет успешной работы и сотни
+                                довольных
+                                заказчиков</p>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div
+                        class=" bg-[#f5f5f5] p-[20px] flex justify-start items-center gap-[20px] rounded-xl max-[960px]:flex-col">
+                        <div class=" h-[50px] w-[50px] rounded-xl bg-[#fff] flex justify-center items-center p-[5px]">
+                            <img src="./assets/svg/5.svg" alt="" class="w-[90%] h-[90%]">
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70 max-[960px]:items-center max-[960px]:text-center">
+                            <p class="font-medium leading-[100%] text-[#222]">На рынке с 2010 года</p>
+                            <p class="font-normal text-[14px] text-[#777]">Более 13 лет успешной работы и сотни
+                                довольных
+                                заказчиков</p>
+                        </div>
+                    </div>
+
+                    <!-- 6  -->
+                    <div
+                        class=" bg-[#f5f5f5] p-[20px] flex justify-start items-center gap-[20px] rounded-xl max-[960px]:flex-col">
+                        <div class=" h-[50px] w-[50px] rounded-xl bg-[#fff] flex justify-center items-center p-[5px]">
+                            <img src="./assets/svg/6.svg" alt="" class="w-[90%] h-[90%]">
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70 max-[960px]:items-center max-[960px]:text-center">
+                            <p class="font-medium leading-[100%] text-[#222]">На рынке с 2010 года</p>
+                            <p class="font-normal text-[14px] text-[#777]">Более 13 лет успешной работы и сотни
+                                довольных
+                                заказчиков</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- how it work end -->
+
+
+    <!-- calculator -->
+    <section class="calculator py-[50px]">
+        <div class="container2">
+            <div class="grid grid-cols-2 bg-[#f5f5f5] rounded-[10px] p-[20px] max-[940px]:grid-cols-1 max-[360px]:p-0">
+                <div class="relative max-[940px]:hidden">
+                    <img src="./assets/img/calculator_girl_img.png" alt=""
+                        class="h-[330px] absolute bottom-[-20px] max-[1050px]:h-[300px]">
+                </div>
+
+                <div class="bg-[#fff] rounded-lg overflow-hidden">
+                    <div class="flex flex-col justify-center items-start gap-[15px] w-full ">
+                        <div class="flex flex-col justify-center  gap-[15px] w-full p-[20px]">
+                            <h1
+                                class="font-[700] text-[30px] text-1 max-[1095px]:text-[20px] max-[455px]:text-[15px] max-[320px]:text-[14px]">
+                                Калькулятор
+                                пиломатериалов</h1>
+
+                            <div class="w-[100%] grid grid-cols-2 gap-[30px] max-[550px]:grid-cols-1 ">
+                                <label for="Категория"
+                                    class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70">
+                                    Категория
+                                    <select name="Категория" id="Категория"
+                                        class="w-full border border-[#e3e3e3] p-[5px] rounded outline-none">
+                                        <option value="Категория">Категория</option>
+                                        <option value="Категория">Категория2</option>
+                                        <option value="Категория">Категория3</option>
+                                        <option value="Категория">Категория4</option>
+                                    </select>
+                                </label>
+
+                                <label for="Древесина"
+                                    class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70">
+                                    Древесина
+                                    <select name="Древесина" id="Древесина"
+                                        class="w-full border border-[#e3e3e3] p-[5px] rounded outline-none">
+                                        <option value="Древесина">Выберите материал</option>
+                                        <option value="Древесина">item1</option>
+                                        <option value="Древесина">item2</option>
+                                        <option value="Древесина">item3</option>
+                                    </select>
+                                </label>
+                            </div>
+
+                            <div class="w-full grid grid-cols-2 gap-[30px] max-[550px]:grid-cols-1">
+                                <label for="Размер"
+                                    class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70">
+                                    Размер
+                                    <select name="Размер" id="Размер"
+                                        class="w-full border border-[#e3e3e3] p-[5px] rounded outline-none">
+                                        <option value="Размер">50х150х5000</option>
+                                        <option value="Размер">60х150х6000</option>
+                                        <option value="Размер">70х150х7000</option>
+                                        <option value="Размер">80х150х8000</option>
+                                    </select>
+                                </label>
+
+                                <div class="flex flex-col justify-center items-start gap-[5px] text-[14px] opacity-70">
+                                    Количество
+                                    <div
+                                        class="flex justify-between items-center w-full border border-[#e3e3e3] p-[5px] rounded outline-none">
+                                        <label for="metr" class="flex justify-center items-center gap-[5px]">
+                                            <input type="checkbox" name="sd" id="metr">
+                                            <small class="opacity-70">м3</small>
+                                        </label>
+                                        <label for="шт" class="flex justify-center items-center gap-[5px]">
+                                            <input type="checkbox" name="sd" id="шт">
+                                            <small class="opacity-70">шт</small>
+                                        </label>
+
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-minus"></i></button>
+                                        <h3>1</h3>
+                                        <button
+                                            class="border border-[#e0e0e0] px-[3px] rounded flex justify-center items-center py-[2px]"><i
+                                                class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center p-[20px] gap-[15px] bg-[#ff9b04] w-full max-[530px]:flex-col">
+                            <div class="flex justify-center items-center gap-[6px] text-[#fff]">
+                                <small>Стоимость:</small>
+                                <h1>75 000 ₽</h1>
+                            </div>
+
+                            <a href="#!"
+                                class="py-[10px] px-[20px] bg-[#fff] rounded-lg text-1 active:scale-[.90]">Оформить
+                                заказ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- calculator end-->
+
+
+    <!-- how we work -->
+    <section class="py-[50px]">
+        <div class="container2">
+            <h1
+                class="font-[700] text-[30px] text-1 text-center max-[1095px]:text-[20px] max-[455px]:text-[15px] max-[320px]:text-[14px]">
+                Как мы работаем</h1>
+        </div>
+
+        <div
+            class="grid grid-cols-5 pt-[50px] max-[970px]:grid-cols-3 max-[970px]:gap-[40px] max-[610px]:grid-cols-2 max-[430px]:grid-cols-1">
+            <div class="flex flex-col justify-between items-center gap-[15px]">
+                <div class="relative bg-[#f5f5f5] p-[15px] rounded-[50%]">
+                    <img src="./assets/svg/work1.svg" alt="">
+                    <p
+                        class="work_num opacity-70 rounded-[50%] bg-[#fff] p-[3px] px-[5px] text-[10px]  flex justify-center items-center absolute top-[-3px] right-[-5px]">
+                        01</p>
+                </div>
+
+                <p class="text-[13px] opacity-70 text-center">Оставляете заявку на сайте <br> или по телефону</p>
+            </div>
+
+            <div class="flex flex-col justify-between items-center gap-[15px]">
+                <div class="relative bg-[#f5f5f5] p-[15px] rounded-[50%]">
+                    <img src="./assets/svg/work2.svg" alt="">
+                    <p
+                        class="work_num opacity-70 rounded-[50%] bg-[#fff] p-[3px] px-[5px] text-[10px]  flex justify-center items-center absolute top-[-3px] right-[-5px]">
+                        02</p>
+                </div>
+
+                <p class="text-[13px] opacity-70 text-center">Согласовываем Ваш заказ <br> и уточняем детали</p>
+            </div>
+
+
+            <div class="flex flex-col justify-between items-center gap-[15px]">
+                <div class="relative bg-[#f5f5f5] p-[15px] rounded-[50%]">
+                    <img src="./assets/svg/work3.svg" alt="">
+                    <p
+                        class="work_num opacity-70 rounded-[50%] bg-[#fff] p-[3px] px-[5px] text-[10px]  flex justify-center items-center absolute top-[-3px] right-[-5px]">
+                        03</p>
+                </div>
+
+                <p class="text-[13px] opacity-70 text-center">Оплачиваете заказ любым <br> удобным способом</p>
+            </div>
+
+
+            <div class="flex flex-col justify-between items-center gap-[15px]">
+                <div class="relative bg-[#f5f5f5] p-[15px] rounded-[50%]">
+                    <img src="./assets/svg/work4.svg" alt="">
+                    <p
+                        class="work_num opacity-70 rounded-[50%] bg-[#fff] p-[3px] px-[5px] text-[10px]  flex justify-center items-center absolute top-[-3px] right-[-5px]">
+                        04</p>
+                </div>
+
+                <p class="text-[13px] opacity-70 text-center">Мы формируем Ваш заказ <br> на складе</p>
+            </div>
+
+
+            <div class="flex flex-col justify-between items-center gap-[15px]">
+                <div class="relative bg-[#f5f5f5] p-[15px] rounded-[50%]">
+                    <img src="./assets/svg/work5.svg" alt="">
+                    <p
+                        class="work_num opacity-70 rounded-[50%] bg-[#fff] p-[3px] px-[5px] text-[10px]  flex justify-center items-center absolute top-[-3px] right-[-5px]">
+                        05</p>
+                </div>
+
+                <p class="text-[13px] opacity-70 text-center">Оперативно доставляем <br> Ваш заказ</p>
+            </div>
+        </div>
+    </section>
+    <!-- how we work end-->
+
+
+    <!-- comment -->
+    <section class="comment py-[50px]">
+        <div class="container2">
+
+            <div class="flex justify-between items-center mb-[30px] max-[605px]:">
+                <h1
+                    class="font-[700] text-[30px] text-[#2a1a01] max-[470px]:text-[25px] max-[365px]:text-center max-[365px]:w-full max-[365px]:text-[20px]">
+                    Отзывы наших клиентов</h1>
+
+                <a href="#!" class="btn max-[605px]:hidden">Перейти в каталог</a>
+            </div>
+
+            <!-- Swiper -->
+            <div class="relative">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper pb-[30px]">
+                        <!-- 1 -->
+                        <div class="swiper-slide">
+                            <div
+                                class="p-[20px] rounded-xl border border-[#e0e0e0] flex flex-col justify-between items-start  gap-[25px]">
+                                <div
+                                    class="flex justify-between items-center w-full max-[440px]:flex-col max-[440px]:items-start max-[440px]:gap-[30px] max-[340px]:items-center ">
+                                    <div
+                                        class="flex justify-start items-center gap-[10px] max-[340px]:flex-col max-[340px]:justify-center max-[340px]:w-full">
+                                        <img src="./assets/img/comment/user1.png" alt="">
+                                        <div class="text-left max-[340px]:text-center">
+                                            <p class="font-[600]">Дмитрий Иванов</p>
+                                            <small class="opacity-70">06 марта 2023</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="like flex justify-center items-center gap-[20px]">
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                            7
+                                        </p>
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                            0
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="text-[15px] opacity-80 text-justify">Недавно с мужем потребовалось приобрести
+                                    пиломатериалы
+                                    для обустройки дома. Давно
+                                    искали подходящие сайты и магазины и
+                                    вот наконец-то наткнулись на ГрандЛесМаркет. Заказали материал и были приятно
+                                    удивлены качеством, теперь после успешно
+                                    сделанного ремонта наш домик стоит как новенький.</p>
+
+                                <a href="#!" class="text-[#ff9b04] font-[500] underline hover:text-1">Читать
+                                    полностью</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="p-[20px] rounded-xl border border-[#e0e0e0] flex flex-col justify-between items-start  gap-[25px]">
+                                <div
+                                    class="flex justify-between items-center w-full max-[440px]:flex-col max-[440px]:items-start max-[440px]:gap-[30px] max-[340px]:items-center ">
+                                    <div
+                                        class="flex justify-start items-center gap-[10px] max-[340px]:flex-col max-[340px]:justify-center max-[340px]:w-full">
+                                        <img src="./assets/img/comment/user2.png" alt="">
+                                        <div class="text-left max-[340px]:text-center">
+                                            <p class="font-[600]">Дмитрий Иванов</p>
+                                            <small class="opacity-70">06 марта 2023</small>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="like flex justify-center items-center gap-[20px]">
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                            7
+                                        </p>
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                            0
+                                        </p>
+                                    </div>
+                                </div>
+                        
+                                <p class="text-[15px] opacity-80 text-justify">Недавно с мужем потребовалось приобрести
+                                    пиломатериалы
+                                    для обустройки дома. Давно
+                                    искали подходящие сайты и магазины и
+                                    вот наконец-то наткнулись на ГрандЛесМаркет. Заказали материал и были приятно
+                                    удивлены качеством, теперь после успешно
+                                    сделанного ремонта наш домик стоит как новенький.</p>
+                        
+                                <a href="#!" class="text-[#ff9b04] font-[500] underline hover:text-1">Читать
+                                    полностью</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div
+                                class="p-[20px] rounded-xl border border-[#e0e0e0] flex flex-col justify-between items-start  gap-[25px]">
+                                <div
+                                    class="flex justify-between items-center w-full max-[440px]:flex-col max-[440px]:items-start max-[440px]:gap-[30px] max-[340px]:items-center ">
+                                    <div
+                                        class="flex justify-start items-center gap-[10px] max-[340px]:flex-col max-[340px]:justify-center max-[340px]:w-full">
+                                        <img src="./assets/img/comment/user1.png" alt="">
+                                        <div class="text-left max-[340px]:text-center">
+                                            <p class="font-[600]">Дмитрий Иванов</p>
+                                            <small class="opacity-70">06 марта 2023</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="like flex justify-center items-center gap-[20px]">
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                            7
+                                        </p>
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                            0
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="text-[15px] opacity-80 text-justify">Недавно с мужем потребовалось приобрести
+                                    пиломатериалы
+                                    для обустройки дома. Давно
+                                    искали подходящие сайты и магазины и
+                                    вот наконец-то наткнулись на ГрандЛесМаркет. Заказали материал и были приятно
+                                    удивлены качеством, теперь после успешно
+                                    сделанного ремонта наш домик стоит как новенький.</p>
+
+                                <a href="#!" class="text-[#ff9b04] font-[500] underline hover:text-1">Читать
+                                    полностью</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div
+                                class="p-[20px] rounded-xl border border-[#e0e0e0] flex flex-col justify-between items-start  gap-[25px]">
+                                <div
+                                    class="flex justify-between items-center w-full max-[440px]:flex-col max-[440px]:items-start max-[440px]:gap-[30px] max-[340px]:items-center ">
+                                    <div
+                                        class="flex justify-start items-center gap-[10px] max-[340px]:flex-col max-[340px]:justify-center max-[340px]:w-full">
+                                        <img src="./assets/img/comment/user2.png" alt="">
+                                        <div class="text-left max-[340px]:text-center">
+                                            <p class="font-[600]">Дмитрий Иванов</p>
+                                            <small class="opacity-70">06 марта 2023</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="like flex justify-center items-center gap-[20px]">
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                            7
+                                        </p>
+                                        <p class="cursor-pointer hover:text-[#ff9b04]">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                            0
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="text-[15px] opacity-80 text-justify">Недавно с мужем потребовалось приобрести
+                                    пиломатериалы
+                                    для обустройки дома. Давно
+                                    искали подходящие сайты и магазины и
+                                    вот наконец-то наткнулись на ГрандЛесМаркет. Заказали материал и были приятно
+                                    удивлены качеством, теперь после успешно
+                                    сделанного ремонта наш домик стоит как новенький.</p>
+
+                                <a href="#!" class="text-[#ff9b04] font-[500] underline hover:text-1">Читать
+                                    полностью</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div
+                    class="flex justify-center items-center gap-[10px]  w-[10%] absolute right-0 bottom-[-3px] z-10 max-[1024px]:hidden">
+                    <div class="swiper-next order-2">
+                        <svg width="31" height="12" viewBox="0 0 31 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.495 6.49497C30.7683 6.22161 30.7683 5.77839 30.495 5.50503L26.0402 1.05025C25.7668 0.776886 25.3236 0.776886 25.0503 1.05025C24.7769 1.32362 24.7769 1.76684 25.0503 2.0402L29.0101 6L25.0503 9.9598C24.7769 10.2332 24.7769 10.6764 25.0503 10.9497C25.3236 11.2231 25.7668 11.2231 26.0402 10.9497L30.495 6.49497ZM0 6.7H30V5.3H0V6.7Z"
+                                fill="#222222" />
+                        </svg>
+                    </div>
+
+                    <div class="swiper-prev">
+                        <svg width="31" height="12" viewBox="0 0 31 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.505024 5.50503C0.231657 5.77839 0.231657 6.22161 0.505024 6.49498L4.9598 10.9497C5.23316 11.2231 5.67638 11.2231 5.94975 10.9497C6.22311 10.6764 6.22311 10.2332 5.94975 9.9598L1.98995 6L5.94975 2.0402C6.22311 1.76684 6.22311 1.32362 5.94975 1.05025C5.67638 0.776888 5.23316 0.776888 4.9598 1.05025L0.505024 5.50503ZM31 5.3L0.999998 5.3L0.999998 6.7L31 6.7L31 5.3Z"
+                                fill="#222222" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- comment end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
